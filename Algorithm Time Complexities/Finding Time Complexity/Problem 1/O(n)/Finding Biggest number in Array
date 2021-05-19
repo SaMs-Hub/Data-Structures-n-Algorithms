@@ -1,0 +1,12 @@
+x = [11, 22, 13, 133, 34, 45, 55]
+
+
+def biggestNum(array_a):
+    biggestNumber = array_a[0]
+    for a in range(1, len(array_a)):
+        if array_a[a] > biggestNumber:
+            biggestNumber = array_a[a]
+    return biggestNumber
+
+
+print(biggestNum(x))
