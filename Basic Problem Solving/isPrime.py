@@ -13,7 +13,7 @@ else:
     print("Prime")
     
     
-#using for
+#using for loop
 n = int(input())
 
 flag = False
