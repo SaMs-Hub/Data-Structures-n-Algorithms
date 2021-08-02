@@ -8,6 +8,8 @@ int main(){
     rev = 0;
     cin >> n;
     nClone = n;
+
+    // logic for reversing the number
     while (n > 0){
         l = n % 10;
         n = n / 10;
@@ -15,7 +17,7 @@ int main(){
     }
 
     // checking condition for palindrome
-    
+
     if (nClone == rev){
         cout << rev << " It is Palindrome" << endl;
     }else{
