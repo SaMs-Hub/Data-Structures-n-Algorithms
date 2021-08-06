@@ -7,6 +7,8 @@ int main(){
     counter = 1;
     first = 1;
     second = 1;
+
+    // logic for the problem
     while (counter < n){
         temp = first + second;
         first = second;
