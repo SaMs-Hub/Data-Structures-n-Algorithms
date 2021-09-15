@@ -39,3 +39,26 @@ while (i <= n):
         j += 1
     print()
     i += 1
+
+    
+-----------------
+
+A
+BB
+CCC
+DDDD
+
+
+n = int(input())
+
+i = 1
+while (i <= n):
+    j = 1
+    while (j <= i):
+        char = chr(ord('A') + i - 1)
+        print(char, end='')
+        j += 1
+    print()
+    i += 1
+
+
