@@ -13,6 +13,9 @@ int main(){
         n = n / 10;
         rev = rev * 10 + l;
     }
+
+    // checking condition for palindrome
+    
     if (nClone == rev){
         cout << rev << " It is Palindrome" << endl;
     }else{
