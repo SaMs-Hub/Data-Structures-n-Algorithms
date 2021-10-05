@@ -8,6 +8,20 @@ while (count <= n):
 print(sum)
 
 
+#or
+
+n = int(input())
+
+i = 2
+sum = 0
+while (i <= n):
+    if (i % 2 == 0):
+        sum += i
+    i += 1
+
+print(sum)
+
+
 #using for loop
 n = int(input())
 sum = 0
