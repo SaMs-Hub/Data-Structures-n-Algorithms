@@ -1,15 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void arrSum(int arr[], int n){
-    int sum = 0;
-
-    //logic
-    for (int i = 0; i <= n; i++){
-        sum += arr[i];
-    }
-    cout << sum;
+void findUnique(int arr[], int n){
+    arr[1, n, 2] = arr[,n,2];
+    cout << arr;
 }
+
 
 int main(){
     int n;
@@ -22,5 +18,5 @@ int main(){
         cin >> arr[i];
     }
 
-    arrSum(arr, n);
+    findUnique(arr, n);
 }
