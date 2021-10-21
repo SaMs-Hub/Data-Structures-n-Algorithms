@@ -1,3 +1,5 @@
+# cannot be used if the array is not sorted
+
 arr = [1, 2, 3, 4, 5]
 key = 3
 
