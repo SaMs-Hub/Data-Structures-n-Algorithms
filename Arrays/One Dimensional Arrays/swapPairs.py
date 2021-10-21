@@ -5,7 +5,7 @@ arr = [int(x) for x in input().split()]
 def swapPair(arr):
     l = len(arr)
     
-    #logic
+    #logic responsible for swapping of two pairs
     arr[1:l:2], arr[:l:2] = arr[:l:2], arr[1:l:2]
     
     return arr
