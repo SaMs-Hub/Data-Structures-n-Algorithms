@@ -1,3 +1,5 @@
+// cannot be used if the array is not sorted
+
 #include <bits\stdc++.h>
 using namespace std;
 
