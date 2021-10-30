@@ -1,3 +1,4 @@
+#example array
 arr = [4, 5, 1, 2, 3]
 
 def func(arr):
