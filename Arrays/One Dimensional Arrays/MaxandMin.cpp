@@ -42,7 +42,7 @@ int main(){
     return 0;
 }
 
-// method 2
+// Method 2
 
 #include <bits/stdc++.h>
 using namespace std;
