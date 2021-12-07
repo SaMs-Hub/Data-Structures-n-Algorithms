@@ -10,6 +10,8 @@ int main(){
     cin >> m >> n;
 
     int val = 11;
+    
+    // logic for creating
     for (int i = 0; i <= m - 1; i++){
         for (int j = 0; j <= n - 1; j++){
             arr[i][j] = val;
