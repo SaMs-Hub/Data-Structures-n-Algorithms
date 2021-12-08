@@ -1,8 +1,8 @@
 def fact(n):
-  #giving base case
+  # base case
   if n == 0:
     return 1
-  #giving small output
+  # splitting in small output
   smallOutput = fact(n - 1)
   
   #mainlogic of the Problem
