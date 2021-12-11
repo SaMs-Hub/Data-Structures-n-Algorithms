@@ -6,7 +6,7 @@ def firstIndexBetter(a, x, si):
     if a[si] == x:
         return si
 
-    # problem logic
+    # Problems logic
     listOutput = firstIndexBetter(a, x, si + 1)
     return listOutput
 
