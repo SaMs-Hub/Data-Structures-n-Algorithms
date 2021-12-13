@@ -8,6 +8,7 @@ void displayArray(int arr[], int n){
     
 }
 
+// problem logic
 int firstIndex(int arr[], int n, int x, int si){
     if (si == n){
         return -1;
