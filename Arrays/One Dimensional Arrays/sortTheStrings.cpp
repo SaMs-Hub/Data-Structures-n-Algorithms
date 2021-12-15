@@ -21,6 +21,8 @@ int convertToInt(string str){
     return ans;
 }
 
+
+// problem logic for comparing
 bool numericCompare(pair <string, string>s1, pair <string, string> s2){
     string key1, key2;
     key1 = s1.second;
