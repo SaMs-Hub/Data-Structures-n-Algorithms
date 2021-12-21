@@ -7,3 +7,6 @@ print(my_array.index(21))
 #reversing array
 my_array.reverse()
 print(my_array)
+
+#another way
+print(my_array[::-1])
