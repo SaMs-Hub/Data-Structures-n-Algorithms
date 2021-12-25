@@ -8,5 +8,5 @@ print(my_array.index(21))
 my_array.reverse()
 print(my_array)
 
-#another way
+#another way for reversing
 print(my_array[::-1])
