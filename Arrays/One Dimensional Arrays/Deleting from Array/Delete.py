@@ -5,6 +5,6 @@ my_array = array('i',[1,2,3,4,5])
 my_array.remove(11)
 print(my_array)
 
-#using pop
+#takes out the last one
 my_array.pop()
 print(my_array)
