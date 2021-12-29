@@ -28,6 +28,7 @@ class Fraction:
 
         self.denominator = self.denominator // current
 
+    # adding another fraction
     def add(self, otherFraction):
 
         if (self.denominator == otherFraction.denominator):
