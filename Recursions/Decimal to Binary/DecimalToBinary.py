@@ -1,6 +1,6 @@
 n = eval(input("Enter your value to be converted:"))
 
-
+# function
 def decimalToBinary(n):
     assert int(n) == n, "The parameter must be integer only!"
     if n == 0:
