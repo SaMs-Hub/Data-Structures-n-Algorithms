@@ -15,5 +15,7 @@ int main(){
         }
         n /= 10;
     }
+    
+    // printing out
     cout << evenSum <<" " <<  oddSum  << endl;
 }
