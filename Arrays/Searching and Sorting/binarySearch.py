@@ -1,4 +1,4 @@
-# should be sorted out first before using
+# Arr should be sorted out first before using 
 
 arr = [1, 2, 3, 4, 5]
 key = 3
