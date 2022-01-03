@@ -15,3 +15,7 @@ int main(){
 
     cout << power(x, n);
 }
+
+// complexity
+TC - O(n)
+SC - O(n)
