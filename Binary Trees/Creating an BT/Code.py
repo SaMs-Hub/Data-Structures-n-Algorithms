@@ -6,6 +6,20 @@ class BinaryTree:
         self.right = None
 
 
+def treeInput():
+    rootData = int(input())
+    if rootData == -1:
+        return None
+
+    root = BinaryTree(rootData)
+    leftTree = treeInput()
+    rightTree = treeInput()
+
+    root.left = leftTree
+    root.right = rightTree
+    return root
+
+
 def printTree(root):
     if root is None:
         return
@@ -20,15 +34,5 @@ def printTree(root):
     printTree(root.left)
     printTree(root.right)
 
-
-btn1 = BinaryTree(1)
-
-btn2 = BinaryTree(2)
-btn3 = BinaryTree(3)
-
-
-btn1.left = btn2
-btn1.right = btn3
-
-
+root = treeInput()
 printTree(btn1)
