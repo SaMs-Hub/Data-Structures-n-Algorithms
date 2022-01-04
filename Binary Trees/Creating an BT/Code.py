@@ -35,4 +35,4 @@ def printTree(root):
     printTree(root.right)
 
 root = treeInput()
-printTree(btn1)
+printTree(root)
