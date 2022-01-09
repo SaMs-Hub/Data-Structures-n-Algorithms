@@ -20,6 +20,7 @@ def treeInput():
     return root
 
 
+# for printing the tree
 def printTree(root):
     if root is None:
         return
