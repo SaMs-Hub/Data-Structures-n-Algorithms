@@ -1,5 +1,6 @@
 arr = [4, 5, 1, 2, 3]
 
+### defining the array
 def func(arr):
     l = len(arr)
     for i in range(l - 1):
