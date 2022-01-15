@@ -1,5 +1,7 @@
 n = int(input())
 rev = 0
+
+# logic
 while (n > 0):
   l = n % 10
   n = n // 10
