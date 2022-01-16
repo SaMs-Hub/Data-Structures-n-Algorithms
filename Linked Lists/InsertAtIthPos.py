@@ -25,6 +25,7 @@ def takeInput():
     return head
 
 
+# for printing LL
 def printLL(head):
     while (head != None):
         print(str(head.data) + '->', end="")
