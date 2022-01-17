@@ -2,6 +2,7 @@ string = input()
 
 def isBalanced(str):
     
+    # giving a temp array
     s = []
     for char in str:
         if (char in "({["):
