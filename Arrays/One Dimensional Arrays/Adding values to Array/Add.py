@@ -1,6 +1,6 @@
 from array import *
 
-
+# writing an array
 my_array = array('i',[1,2,3,4,5])
 
 # using append, element gets added at the last index
