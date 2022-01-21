@@ -7,6 +7,8 @@ int main(){
     sum = 0;
     count = 1;
     while (count <= n){
+        
+        //logic
         if (count % 2 == 0){
             sum += count;
         }
