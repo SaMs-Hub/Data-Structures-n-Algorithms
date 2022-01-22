@@ -4,7 +4,8 @@ class BinaryTree:
         self.data = data
         self.left = None
         self.right = None
-        
+      
+    #input
 def treeInput():
     
     rootData = int(input())
