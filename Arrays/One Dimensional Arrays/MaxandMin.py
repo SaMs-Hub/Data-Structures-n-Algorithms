@@ -38,3 +38,22 @@ def function(arr):
     print(largest, smallest)
     
 function(arr)
+
+
+arr = [-1, 2, 3, 4, 5]
+
+
+# avoiding if else
+def function(arr):
+    
+    largest = float('-inf')
+    smallest = float('inf')
+    
+    
+    for i in range(0, len(arr)):
+        largest = max(arr[i], largest)
+        smallest = min(arr[i], smallest)
+            
+    print(largest, smallest)
+    
+function(arr)
