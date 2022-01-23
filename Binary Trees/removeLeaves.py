@@ -39,6 +39,8 @@ def printTree(root):
     printTree(root.left)
     printTree(root.right)
     
+
+# logic    
 def removeLeaves(root):
     if (root == None):
         return None
