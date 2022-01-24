@@ -7,6 +7,8 @@ class Graph:
     def __str__(self):
         return str(self.adjMatrix)
     
+    
+    # adding Edge
     def addEdge(self, v1, v2):
         self.adjMatrix[v1][v2] = 1
         self.adjMatrix[v2][v1] = 1
