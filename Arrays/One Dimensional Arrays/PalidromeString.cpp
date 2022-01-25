@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+
+# checking function
 bool isPalindrome(char arr[]){
     int i = 0;
     int j = strlen(arr) - 1;
