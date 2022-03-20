@@ -3,7 +3,7 @@ using namespace std;
 
 class Student
 {
-    // create static memets
+    // create static members
     static int totalStudents;
 
     public:
